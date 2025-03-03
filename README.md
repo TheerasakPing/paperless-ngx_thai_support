@@ -40,12 +40,6 @@ Ensure you have the following installed:
    Open your browser and go to:  
    [http://localhost:8001](http://localhost:8001)
 
-## OCR Language Configuration
-To enable Thai and English OCR, modify the `.env` file and set:
-```sh
-PAPERLESS_OCR_LANGUAGE=tha+eng
-```
-
 ## Storage Configuration
 Paperless stores its files in `E:\paperless`. If you want to change the location, update the `docker-compose.yml` file:
 ```yaml
